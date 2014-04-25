@@ -1,0 +1,2 @@
+trac-exit-confirmation-plugin
+=============================
