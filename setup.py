@@ -8,11 +8,11 @@ setup(
     name=PACKAGE,
     version=VERSION,
     description='Trac Plugins',
-    packages=['main'],
+    packages=['exit_confirmation'],
     entry_points = {'trac.plugins': [
-        'main.trac_exit_confirmation = main.trac_exit_confirmation'
+        'exit_confirmation.trac_exit_confirmation = exit_confirmation.trac_exit_confirmation'
     ]},
     package_data={
-    'main': ['htdocs/*.js']},
+    'exit_confirmation': ['htdocs/*.js']},
     install_requires=['trac']
 )
