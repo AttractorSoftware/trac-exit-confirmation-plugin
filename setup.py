@@ -7,7 +7,11 @@ VERSION = '0.1'
 setup(
     name=PACKAGE,
     version=VERSION,
-    description='Trac Plugins',
+    description='Web page exit confirmation plugin for Trac',
+    author="IT Attractor",
+    author_email="info@it-attractor.com",
+    license='',
+    url='',
     packages=['exit_confirmation'],
     entry_points = {'trac.plugins': [
         'exit_confirmation.trac_exit_confirmation = exit_confirmation.trac_exit_confirmation'
